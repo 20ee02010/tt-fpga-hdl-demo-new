@@ -1,0 +1,60 @@
+# Tiny Tapeout project information
+project:
+
+  # If using a Wokwi, set wokwi_id as the ID number found in your Wokwi project URL.
+  wokwi_id:     0        # If using wokwi, set this to your project's ID
+  
+  title:        "TBD"      # Project title
+  author:       "TBD"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "TBD"      # One line description of what your project does
+  language:     "TL-Verilog" # other examples include Verilog, SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_example"
+  
+  # List your project's Verilog source files here.
+  # For TL-Verilog (.tlv) sources, list the corresponding (.v) generated Verilog files (which should not be committed to the repo).
+  # Verilog/TL-Verilog source files must be in ./src and you must list each Verilog source file separately, one per line:
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "project.sv"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "TBD"
+  ui[1]: "TBD"
+  ui[2]: "TBD"
+  ui[3]: "TBD"
+  ui[4]: "TBD"
+  ui[5]: "TBD"
+  ui[6]: "TBD"
+  ui[7]: "TBD"
+
+  # Outputs
+  uo[0]: "TBD"
+  uo[1]: "TBD"
+  uo[2]: "TBD"
+  uo[3]: "TBD"
+  uo[4]: "TBD"
+  uo[5]: "TBD"
+  uo[6]: "TBD"
+  uo[7]: "TBD"
+
+  # Bidirectional pins
+  uio[0]: "TBD"
+  uio[1]: "TBD"
+  uio[2]: "TBD"
+  uio[3]: "TBD"
+  uio[4]: "TBD"
+  uio[5]: "TBD"
+  uio[6]: "TBD"
+  uio[7]: "TBD"
+
+# Do not change!
+yaml_version: 6
